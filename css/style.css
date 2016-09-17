@@ -1,0 +1,32 @@
+/*Start header box*/
+	#header-box {
+		color: #FFFFFF;
+		padding:20px;
+		background: #000000;
+		border-radius:30px;
+	}
+
+	#header-box > p:first-child {
+		font-size:60px;
+		text-align: center;
+	}
+
+	#header-box > p:last-child {
+		font-size: 24px;
+		font-style: italic;
+		text-decoration: underline dotted;
+	}
+/*End header box*/
+
+.circle {
+	background: #668B8B;
+	border-radius: 100%;
+	width:100px;
+	height:100px;
+	margin: 25px auto;
+}
+
+.circle:hover {
+	background:#2F4F4F;
+	border: 3px solid black;
+}
