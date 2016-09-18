@@ -30,3 +30,7 @@
 	background:#2F4F4F;
 	border: 3px solid black;
 }
+
+.display-block {
+	display:block;
+}

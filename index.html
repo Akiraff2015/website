@@ -5,8 +5,10 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
-	<script type="text/javascript" src="node_modules/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -33,8 +35,12 @@
 			</div>
 		</div>
 
-		<div class="programming-container">
-			<h4>Programming Languages</h4>
+		<!-- Programming Languages -->
+		<div class="display-block" id="caret-programming">
+			<h4>Programming Languages <span class="caret"></span></h4>
+		</div>
+
+		<div id="programming-container">
 			<button class="btn btn-primary" type="button">CSS <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">JavaScript <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">HTML5 <span class="badge">4</span></button>
@@ -44,16 +50,22 @@
 		</div>
 		
 		<!-- Operating System -->
-		<div class="os-container">
-			<h4>Operating System</h4>
+		<div class="display-block" id="caret-os">
+			<h4>Operating System <span class="caret"></span></h4>
+		</div>
+		
+		<div id="os-container">
 			<button class="btn btn-danger" type="button">Windows OS <span class="badge">4</span></button>
 			<button class="btn btn-danger" type="button">Linux OS <span class="badge">4</span></button>
 			<button class="btn btn-danger" type="button">MAC OS <span class="badge">4</span></button>
 		</div>
 
 		<!-- IDE -->
-		<div class="ide-container">
-			<h4>Integrated Development Environment</h4>
+		<div class="display-block" id="caret-ide">
+			<h4>Integrated Development Environment <span class="caret"></span></h4>
+		</div>
+
+		<div id="ide-container">
 			<button class="btn btn-success" type="button">Webstorm 10<span class="badge">4</span></button>
 			<button class="btn btn-success" type="button">Eclipse Xenon<span class="badge">4</span></button>
 			<button class="btn btn-success" type="button">PyCharm <span class="badge">4</span></button>
@@ -62,14 +74,19 @@
 		</div>
 
 		<!-- Version Control System -->
-		<div class="vcs-container">
-			<h4> Version Control System</h4>
+		<div class="display-block" id="caret-vcs">
+			<h4> Version Control System <span class="caret"></span></h4>
+		</div>
+		<div id="vcs-container">
 			<button class="btn btn-info" type="button">Git <span class="badge">4</span></button>
 		</div>
 
 		<!-- Libraries and Frameworks -->
-		<div class="lib-container">
-			<h4>Libraries, Frameworks and APIs</h4>
+		<div class="display-block" id="caret-lib">
+			<h4>Libraries, Frameworks and APIs <span class="caret"></span></h4>
+		</div>
+		
+		<div id="lib-container">
 			<button class="btn btn-default" type="button">Bootstrap 3 <span class="badge">4</span></button>
 			<button class="btn btn-default" type="button">MongoDB <span class="badge">4</span></button>
 			<button class="btn btn-default" type="button">jQuery <span class="badge">4</span></button>
@@ -80,23 +97,32 @@
 		</div>
 
 		<!-- Software Products -->
-		<div class="software-container">
-			<h4>Software Products</h4>
+		<div class="display-block" id="caret-software">
+			<h4>Software Products <span class="caret"></span></h4>
+		</div>
+
+		<div id="software-container">
 			<button class="btn btn-warning" type="button">Adobe Photoshop <span class="badge">4</span></button>
 			<button class="btn btn-warning" type="button">Adobe Premiere Pro <span class="badge">4</span></button>
 		</div>
 
 		<!-- Miscellaneous Skills -->
-		<div class="misc-container">
-			<h4>Miscellaneous Skills</h4>
+		<div class="display-block" id="caret-misc">
+			<h4>Miscellaneous Skills <span class="caret"></span></h4>
+		</div>
+
+		<div id="misc-container">
 			<button class="btn btn-primary" type="button">Leadership <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">Customer Service <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">Innovative <span class="badge">4</span></button>
 		</div>
 
 		<!-- Languages -->
-		<div class="language-container">
-			<h4>Languages</h4>
+		<div class="display-block" id="caret-language">
+		<h4>Languages <span class="caret"></span></h4>
+		</div>
+
+		<div id="language-container">
 			<button class="btn btn-primary" type="button">English <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">Portuguese <span class="badge">4</span></button>
 			<button class="btn btn-primary" type="button">Japanese <span class="badge">4</span></button>
