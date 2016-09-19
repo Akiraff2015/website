@@ -13,15 +13,7 @@ $(function() {
 
 	var clickFunction = function(name) {
 		$("#" + name + "-caret").click(function() {
-			if (click === 0) {
-				$("#" + name + "-container").fadeIn("slow");
-				click++;
-			}
-
-			else {
-				$("#" + name + "-container").fadeOut("slow");
-				click = 0;
-			}
+			$("#" + name + "-container").fadeToggle("slow");
 		});
 	}
 
