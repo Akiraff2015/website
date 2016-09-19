@@ -1,8 +1,6 @@
 'use strict'
 
 $(function() {
-	var click = 0;
-
 	// Name container in array
 	var arrName = ["programming", "os", "ide", "vcs", "lib", "software", "misc", "language"];
 

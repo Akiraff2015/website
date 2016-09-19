@@ -1,132 +1,169 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Recent Updates</title>
+	<head>
+		<title>Akira's Portfolio</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
-	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
-	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+		<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/sm-style.css">
+	</head>
 
-<body>
-	<article class="container">
-		
-		<div id="header-box">
-			<p>Young enthusiastic developer who wants to make a change towards the world.</p>
+	<body>
+		<article class="container">
+			
+			<div id="header-box">
+				<p>Young enthusiastic developer who wants to make a change towards the world.</p>
 
-			<p class="text-right">Akira F. Fukushima</p>
-		</div>
-
-		<div class="row">
-			<div class="col-md-4">
-				<div class="circle"></div>
+				<p class="text-right">Akira F. Fukushima</p>
 			</div>
 
-			<div class="col-md-4">
-				<div class="circle"></div>
+			<div class="row">
+				<div class="col-xs-4">
+					<div class="circle"></div>
+				</div>
+
+				<div class="col-xs-4">
+					<div class="circle"></div>
+				</div>
+
+				<div class="col-xs-4">
+					<div class="circle"></div>
+				</div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="circle"></div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<!-- Programming Languages -->
+					<div class="display-block margin-bottom" id="programming-caret">
+						<button type="button" class="btn btn-default"> Programming Languages <span class="caret"></span></button>
+					</div>
+
+					<div id="programming-container">
+						<ul class="list-group">
+							<li class="list-group-item">CSS3 <span class="badge">4</span></li>
+							<li class="list-group-item">HTML5 <span class="badge">4</span></li>
+							<li class="list-group-item">JavaScript <span class="badge">4</span></li>
+							<li class="list-group-item">Python <span class="badge">4</span></li>
+							<li class="list-group-item">Java <span class="badge">4</span></li>
+							<li class="list-group-item">Ruby <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<!-- Libraries and Frameworks -->
+ 					<div class="display-block margin-bottom" id="lib-caret">
+						<button type="button" class="btn btn-default">Libraries, Frameworks and APIs <span class="caret"></span></button>
+					</div>
+					
+					<div id="lib-container">
+						<ul class="list-group">
+							<li class="list-group-item">Bootstrap 3<span class="badge">4</span></li>
+							<li class="list-group-item">jQuery <span class="badge">4</span></li>
+							<li class="list-group-item">Meteor.js <span class="badge">4</span></li>
+							<li class="list-group-item">Angular.js <span class="badge">4</span></li>
+							<li class="list-group-item">React.js <span class="badge">4</span></li>
+							<li class="list-group-item">Amazon S3 <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<!-- IDE -->
+					<div class="display-block margin-bottom" id="ide-caret">
+						<button type="button" class="btn btn-default">Integrated Development Environment <span class="caret"></span></button>
+					</div>
+
+					<div id="ide-container">
+						<ul class="list-group">
+							<li class="list-group-item">Webstorm 10 <span class="badge">4</span></li>
+							<li class="list-group-item">Eclipse Xenon <span class="badge">4</span></li>
+							<li class="list-group-item">PyCharm <span class="badge">4</span></li>
+							<li class="list-group-item">Sublime Text 3 <span class="badge">4</span></li>
+							<li class="list-group-item">Notepad++ <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<!-- Version Control System -->
+					<div class="display-block margin-bottom" id="vcs-caret">
+						<button type="button" class="btn btn-default">Version Control System <span class="caret"></span></button>
+					</div>
+
+					<div id="vcs-container">
+						<ul class="list-group">
+							<li class="list-group-item">Git <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
 
-		<!-- Programming Languages -->
-		<div class="display-block" id="programming-caret">
-			<h4>Programming Languages <span class="caret"></span></h4>
-		</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<!-- Operating System -->
+					<div class="display-block margin-bottom" id="os-caret">
+						<button type="button" class="btn btn-default">Operating System <span class="caret"></span></button>
+					</div>
+					
+					<div id="os-container">
+						<ul class="list-group">
+							<li class="list-group-item">Windows <span class="badge">4</span></li>
+							<li class="list-group-item">Macintosh <span class="badge">4</span></li>
+							<li class="list-group-item">Linux <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
 
-		<div id="programming-container">
-			<button class="btn btn-primary" type="button">CSS <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">JavaScript <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">HTML5 <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Java <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Python <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Ruby <span class="badge">4</span></button>
-		</div>
-		
-		<!-- Operating System -->
-		<div class="display-block" id="os-caret">
-			<h4>Operating System <span class="caret"></span></h4>
-		</div>
-		
-		<div id="os-container">
-			<button class="btn btn-danger" type="button">Windows OS <span class="badge">4</span></button>
-			<button class="btn btn-danger" type="button">Linux OS <span class="badge">4</span></button>
-			<button class="btn btn-danger" type="button">MAC OS <span class="badge">4</span></button>
-		</div>
+				<div class="col-lg-3 col-md-6">
+					<!-- Software Products -->
+					<div class="display-block margin-bottom" id="software-caret">
+						<button type="button" class="btn btn-default">Software Products <span class="caret"></span></button>
+					</div>
 
-		<!-- IDE -->
-		<div class="display-block" id="ide-caret">
-			<h4>Integrated Development Environment <span class="caret"></span></h4>
-		</div>
+					<div id="software-container">
+						<ul class="list-group">
+							<li class="list-group-item">Adobe Photoshop<span class="badge">4</span></li>
+							<li class="list-group-item">Adobe Premiere Pro <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
 
-		<div id="ide-container">
-			<button class="btn btn-success" type="button">Webstorm 10<span class="badge">4</span></button>
-			<button class="btn btn-success" type="button">Eclipse Xenon<span class="badge">4</span></button>
-			<button class="btn btn-success" type="button">PyCharm <span class="badge">4</span></button>
-			<button class="btn btn-success" type="button">Sublime Text 3 <span class="badge">4</span></button>
-			<button class="btn btn-success" type="button">Notepad++ <span class="badge">4</span></button>
-		</div>
+				<div class="col-lg-3 col-md-6">
+					<!-- Miscellaneous Skills -->
+					<div class="display-block margin-bottom" id="misc-caret">
+						<button type="button" class="btn btn-default">Miscellaneous Skills  <span class="caret"></span></button>
+					</div>
 
-		<!-- Version Control System -->
-		<div class="display-block" id="vcs-caret">
-			<h4> Version Control System <span class="caret"></span></h4>
-		</div>
-		<div id="vcs-container">
-			<button class="btn btn-info" type="button">Git <span class="badge">4</span></button>
-		</div>
+					<div id="misc-container">
+						<ul class="list-group">
+							<li class="list-group-item">Leadership<span class="badge">4</span></li>
+							<li class="list-group-item">Customer Service <span class="badge">4</span></li>
+							<li class="list-group-item">Innovative <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
 
-		<!-- Libraries and Frameworks -->
-		<div class="display-block" id="lib-caret">
-			<h4>Libraries, Frameworks and APIs <span class="caret"></span></h4>
-		</div>
-		
-		<div id="lib-container">
-			<button class="btn btn-default" type="button">Bootstrap 3 <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">MongoDB <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">jQuery <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">Meteor.js <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">Angular.js <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">React.js <span class="badge">4</span></button>
-			<button class="btn btn-default" type="button">Amazon S3 <span class="badge">4</span></button>
-		</div>
+				<div class="col-lg-3 col-md-6">
+					<!-- Languages -->
+					<div class="display-block margin-bottom" id="language-caret">
+						<button type="button" class="btn btn-default">Languages <span class="caret"></span></button>
+					</div>
 
-		<!-- Software Products -->
-		<div class="display-block" id="software-caret">
-			<h4>Software Products <span class="caret"></span></h4>
-		</div>
-
-		<div id="software-container">
-			<button class="btn btn-warning" type="button">Adobe Photoshop <span class="badge">4</span></button>
-			<button class="btn btn-warning" type="button">Adobe Premiere Pro <span class="badge">4</span></button>
-		</div>
-
-		<!-- Miscellaneous Skills -->
-		<div class="display-block" id="misc-caret">
-			<h4>Miscellaneous Skills <span class="caret"></span></h4>
-		</div>
-
-		<div id="misc-container">	
-			<button class="btn btn-primary" type="button">Leadership <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Customer Service <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Innovative <span class="badge">4</span></button>
-		</div>
-
-		<!-- Languages -->
-		<div class="display-block" id="language-caret">
-		<h4>Languages <span class="caret"></span></h4>
-		</div>
-
-		<div id="language-container">
-			<button class="btn btn-primary" type="button">English <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Portuguese <span class="badge">4</span></button>
-			<button class="btn btn-primary" type="button">Japanese <span class="badge">4</span></button>
-		</div>
-	</article>
-</body>
+					<div id="language-container">
+						<ul class="list-group">
+							<li class="list-group-item">English<span class="badge">4</span></li>
+							<li class="list-group-item">Portuguese <span class="badge">4</span></li>
+							<li class="list-group-item">Japanese <span class="badge">4</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
 </html>

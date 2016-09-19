@@ -34,3 +34,11 @@
 .display-block {
 	display:block;
 }
+
+.margin-bottom {
+	margin-bottom: 15px;
+}
+
+body {
+	padding-bottom: 25px;
+}
